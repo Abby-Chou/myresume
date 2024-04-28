@@ -1,0 +1,22 @@
+.border {
+  font-size: 15px;
+  padding: 0%;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-left: 10px;
+  border-radius: 5px;
+}
+h1 {
+  color: gray;
+  font-size: 30px;
+  margin: 10px 5px 0 5px;
+}
+.comp {
+  width: 150x;
+  height: 100px;
+  opacity: 0.5;
+}
+.comp:hover {
+  opacity: 1;
+}
