@@ -10,6 +10,6 @@ phases:
 
 artifacts:
   files:
-    - "**/*"
+    - "abby-chou.website.pipeline"
   discard-paths: no
   base-directory: build
