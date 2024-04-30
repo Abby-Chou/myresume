@@ -10,6 +10,6 @@ phases:
 
 artifacts:
   files:
-    - "abby-chou.website.pipeline"
+    - "C:\Users\88697\Desktop\myproject\myresume"
   discard-paths: no
   base-directory: build
