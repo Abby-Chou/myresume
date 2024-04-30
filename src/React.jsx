@@ -16,7 +16,7 @@ const S3Uploader = () => {
 
     const s3 = new AWS.S3();
     const params = {
-      Bucket: "your-bucket-name",
+      Bucket: "abby-chou.com",
       Key: selectedFile.name,
       Body: selectedFile,
     };
