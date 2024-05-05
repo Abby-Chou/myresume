@@ -1,15 +1,22 @@
 version: 0.2
 
 phases:
+  install:
+    runtime-versions:
+      nodejs: 18
   pre_build:
     commands:
+      - cd myresume
+      - echo Installing source NPM dependencies...
       - npm install
   build:
     commands:
+      - echo Build started on 'date'
       - npm run build
 
 artifacts:
   files:
-    - "C:\Users\88697\Desktop\myproject\myresume"
-  discard-paths: no
-  base-directory: build
+    - '**/*'
+    #- "myresume/build/**/*"
+  base-directory: 'myresume/build'
+  #discard-paths: yes
